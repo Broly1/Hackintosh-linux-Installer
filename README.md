@@ -106,7 +106,8 @@
         
         * This shoud be enough to boot into the installer GOOD Luck!!
         
-      [![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+      [![Video](https://github.com/Broly1/Hackintosh-linux-Installer/blob/master/pict/youtube.jpg)](https://youtu.be/DDJka-Ykzn8 "Video")
+
 
         
         
