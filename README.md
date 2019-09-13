@@ -67,5 +67,48 @@
      <img src="pict/2019-09-11_12-15.png" width=700> 
      
      * Select boot and esp
-      <img src="pict/2019-09-11_12-16.png" width=700>     
-     
+      <img src="pict/2019-09-11_12-16.png" width=700>  
+      
+      ### Now whe need to mount the EFI partition
+      * The easiet way is to open up `Disks` again and mount it that way
+      <img src="pict/2019-09-11_12-18.png" width=700> 
+      
+       * Now you should see an empty EFI partition in your file system
+        <img src="pict/2019-09-11_12-19.png" width=700> 
+         
+        ## Download CloverISO-xx.tar.lzma
+        https://github.com/Dids/clover-builder/releases        
+        * Extract it then extract the iso as well and copy the EFI folder to the empty EFI partition
+        <img src="pict/2019-09-11_12-26.png" width=700> 
+        
+        * Now open EFI/CLOVER/drivers/UEFI and all we need there are:
+        * ApfsDriverLoader.efi AptioMemoryFix.efi HFSPlus.efi
+        <img src="pict/2019-09-11_12-28.png" width=700> 
+        
+        * Now download your kexts here:
+        * https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23
+        * Place your kexts in /EFI/CLOVER/kexts/other 
+        * To know what kexts you need check this link:
+        https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html 
+        
+        ### This is how my kexts folder looks like
+        <img src="pict/2019-09-11_12-31.png" width=700> 
+        
+        * You should have a sample `config.plist` inside /EFI/CLOVER remove it.
+        * If on amd cpu get your sample config.plist here:
+        https://github.com/AMD-OSX/AMD_Vanilla
+        
+        * If on Intel cpu you can get a sample here:
+        https://github.com/corpnewt/Hackintosh-Guide 
+        
+        # Make sure to leran the basics of config.plist
+        https://github.com/corpnewt/Hackintosh-Guide/blob/master/config.plist-basics.md 
+        
+        * This shoud be enough to boot into the installer GOOD Luck!!
+        
+      [![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+
+        
+        
+        ## All Credits to:
+        CorpNewt algrey Shannee XLNC.        
