@@ -37,10 +37,10 @@
  * Once it is done restoring the iso open up `Gparted` and select your usb-drive.  
  <img src="pict/2019-09-11_11-39.png" width=700>   
  
- * Rigth click on the macOS partition and hit recize/move  
+ * Rigth click on the macOS partition and hit resize/move  
   <img src="pict/2019-09-11_11-54.png" width=700>   
   
-  * Give it `200MB` of space make sure you hit the `+` for it to work :) and hit Recise/Move  
+  * Give it `200MB` of space make sure you hit the `+` for it to work :) and hit Resise/Move  
   * It will move the whole hfs+ partition to the right and give us 200MB free space for our EFI partition.   
   * This will take a long times sit tight.  
   <img src="pict/2019-09-11_11-56.png" width=700>   
@@ -71,25 +71,25 @@
       <img src="pict/2019-09-11_12-18.png" width=700>   
       
        * Now you should see an empty EFI partition in your file system  
-        <img src="pict/2019-09-11_12-19.png" width=700>   
-       ## Installing Clover  
-       ***Download CloverISO-xx.tar.lzma***  
-        https://github.com/Dids/clover-builder/releases          
-        * Extract it then extract the iso as well and copy the EFI folder to the empty EFI partition  
-        <img src="pict/2019-09-11_12-26.png" width=700>
+        <img src="pict/2019-09-11_12-19.png" width=700>     
+       ## Installing Clover    
+       ***Download CloverISO-xx.tar.lzma***    
+        https://github.com/Dids/clover-builder/releases            
+        * Extract it then extract the iso as well and copy the EFI folder to the empty EFI partition    
+        <img src="pict/2019-09-11_12-26.png" width=700>  
         
-        ## Drivers
-        * Now open EFI/CLOVER/drivers/UEFI and all we need there are:  
-        * ApfsDriverLoader.efi AptioMemoryFix.efi HFSPlus.efi  
-        <img src="pict/2019-09-11_12-28.png" width=700>  
-        ## Kexts
+        ## Drivers  
+        * Now open EFI/CLOVER/drivers/UEFI and all we need there are:    
+        * ApfsDriverLoader.efi AptioMemoryFix.efi HFSPlus.efi    
+        <img src="pict/2019-09-11_12-28.png" width=700>    
+        ## Kexts  
         * Now download your kexts here:  
         * https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23  
         * Place your kexts in /EFI/CLOVER/kexts/other   
         * To know what kexts you need check this link:  
         https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html   
         
-        ***This is how my kexts folder looks like***  
+        ***This is how my kexts folder looks like***    
         <img src="pict/2019-09-11_12-31.png" width=700>   
         
         * You should have a sample `config.plist` inside /EFI/CLOVER remove it.  
