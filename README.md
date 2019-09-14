@@ -19,7 +19,7 @@
   To start extract gibMacOS and and open your terminal change directory to the gibmacos.command script.  
   Run it with `./gibMacOS.command `   
   ***This will allow you to choose the macOS version to download.*** 
-  <img src="pict/2019-09-11_12-41.png" width=600>  
+  <img src="pict/2019-09-11_12-41.png" width=700>  
 
   In my case I chose option 1. It will download the macOS installer files.  
   Make sure that BaseSystem.dmg is downloaded completely thats what we will use to create the installer  
