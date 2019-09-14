@@ -71,9 +71,11 @@
       <img src="pict/2019-09-11_12-18.png" width=700>   
       
        * Now you should see an empty EFI partition in your file system  
-        <img src="pict/2019-09-11_12-19.png" width=700>     
-       ## Installing Clover    
-       ***Download CloverISO-xx.tar.lzma***    
+        <img src="pict/2019-09-11_12-19.png" width=700>  
+        
+       ## Installing Clover  
+       
+       ***Download CloverISO-xx.tar.lzma***      
         https://github.com/Dids/clover-builder/releases            
         * Extract it then extract the iso as well and copy the EFI folder to the empty EFI partition    
         <img src="pict/2019-09-11_12-26.png" width=700>  
@@ -81,10 +83,13 @@
         ## Drivers  
         * Now open EFI/CLOVER/drivers/UEFI and all we need there are:    
         * ApfsDriverLoader.efi AptioMemoryFix.efi HFSPlus.efi    
-        <img src="pict/2019-09-11_12-28.png" width=700>    
+        <img src="pict/2019-09-11_12-28.png" width=700>
+        
+        
         ## Kexts  
-        * Now download your kexts here:  
-        * https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23  
+        
+        * Now download your kexts here:    
+        * https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23    
         * Place your kexts in /EFI/CLOVER/kexts/other   
         * To know what kexts you need check this link:  
         https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html   
