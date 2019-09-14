@@ -106,7 +106,7 @@
         
         * This shoud be enough to boot into the installer GOOD Luck!!
         
-      [![Video](https://github.com/Broly1/Hackintosh-linux-Installer/blob/master/pict/youtube.jpg)](https://youtu.be/DDJka-Ykzn8 "Video")
+      [![Video](https://github.com/Broly1/Hackintosh-linux-Installer/blob/master/pict/novo.png)](https://youtu.be/DDJka-Ykzn8 "Video")
 
 
         
