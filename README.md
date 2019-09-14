@@ -101,7 +101,7 @@
         * If on Intel cpu you can get a sample here:
         https://github.com/corpnewt/Hackintosh-Guide 
         
-        # Make sure to leran the basics of config.plist
+        # Make sure to learn the basics of config.plist
         https://github.com/corpnewt/Hackintosh-Guide/blob/master/config.plist-basics.md 
         
         * This shoud be enough to boot into the installer GOOD Luck!!
