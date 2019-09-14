@@ -67,10 +67,11 @@
       <img src="pict/2019-09-11_12-16.png" width=700>    
       
       ***Now whe need to mount the EFI partition***  
-      * The easiet way is to open up `Disks` again and mount it that way  
+      * The easiet way is to open up `Disks` again and mount it that way     
       <img src="pict/2019-09-11_12-18.png" width=700>   
       
        * Now you should see an empty EFI partition in your file system  
+       
         <img src="pict/2019-09-11_12-19.png" width=700>  
         
        ## Installing Clover  
@@ -115,4 +116,4 @@
         
         
         ## All Credits to:
-        **CorpNewt algrey Shannee XLNC.        
+        **CorpNewt algrey Shannee XLNC.**        
