@@ -1,7 +1,7 @@
 # Welcome to AMD OS X Vanilla
 
 
-## What you'll need :
+## Tools you'll need :
 * GNOME Disks is a graphical front-end for udisks included in the "gnome-disk-utility" package.  
 * GParted is a free partition editor for graphically managing your disk partitions.  
 * DMG2IMG comand line tool that allows you to convert a (compressed) Apple Disk Images  
@@ -13,22 +13,19 @@
 
 ### High Sierra 10.13.6 (17G65, 17G66, 17G8030)  
 ### Mojave 10.14.6 (18G84, 18G87, 18G95)  
-
-# Getting the macOS Installer  
+  
 ## Get macOS Installer with gibMacOS  
 * Downloading the installer files fairly straight forward process but may take a while depending on your internet speeds.  
 * To start extract gibMacOS and and open your terminal change directory to the gibmacos.command script.  
-* Run it with ./gibMacOS.command  
-### This will allow you to choose the macOS version to download.  
+* Run it with `./gibMacOS.command ` 
+***This will allow you to choose the macOS version to download. 
 <img src="pict/2019-09-11_12-41.png" width=600>  
 
 * In my case I chose option 1. It will download the macOS installer files.  
 * Make sure that BaseSystem.dmg is downloaded completely thats what we will use to create the installer  
 * Once downloaded you can proceed to the next step.  
-# Creating the macOS Install USB  
-## Now to create the install USB...  
-
-* Find BaseSystem.dmg inside `/gibMacOS-master/macOS\ Downloads/publicrelease/`  
+## Creating the macOS Install USB  
+ * Find BaseSystem.dmg inside `/gibMacOS-master/macOS\ Downloads/publicrelease/`  
  * Drag it to your desktop or somewhere else if you prefer.  
  * Open your terminal and change directory to where the BaseSystem.dmg file is in my case:  
  * `cd Desktop`  
@@ -69,29 +66,30 @@
      * Select boot and esp  
       <img src="pict/2019-09-11_12-16.png" width=700>    
       
-      ### Now whe need to mount the EFI partition  
+      ***Now whe need to mount the EFI partition  
       * The easiet way is to open up `Disks` again and mount it that way  
       <img src="pict/2019-09-11_12-18.png" width=700>   
       
        * Now you should see an empty EFI partition in your file system  
         <img src="pict/2019-09-11_12-19.png" width=700>   
-         
-        ## Download CloverISO-xx.tar.lzma  
+       ## Installing Clover  
+       ***Download CloverISO-xx.tar.lzma  
         https://github.com/Dids/clover-builder/releases          
         * Extract it then extract the iso as well and copy the EFI folder to the empty EFI partition  
-        <img src="pict/2019-09-11_12-26.png" width=700>   
+        <img src="pict/2019-09-11_12-26.png" width=700>
         
+        ## Drivers
         * Now open EFI/CLOVER/drivers/UEFI and all we need there are:  
         * ApfsDriverLoader.efi AptioMemoryFix.efi HFSPlus.efi  
         <img src="pict/2019-09-11_12-28.png" width=700>  
-        
+        ## Kexts
         * Now download your kexts here:  
         * https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23  
         * Place your kexts in /EFI/CLOVER/kexts/other   
         * To know what kexts you need check this link:  
         https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html   
         
-        ### This is how my kexts folder looks like  
+        ***This is how my kexts folder looks like  
         <img src="pict/2019-09-11_12-31.png" width=700>   
         
         * You should have a sample `config.plist` inside /EFI/CLOVER remove it.  
@@ -101,7 +99,7 @@
         * If on Intel cpu you can get a sample here:  
         https://github.com/corpnewt/Hackintosh-Guide   
         
-        # Make sure to learn the basics of config.plist  
+        ***Make sure to learn the basics of config.plist  
         https://github.com/corpnewt/Hackintosh-Guide/blob/master/config.plist-basics.md   
         
         * This shoud be enough to boot into the installer GOOD Luck!!  
@@ -112,4 +110,4 @@
         
         
         ## All Credits to:
-        CorpNewt algrey Shannee XLNC.        
+        **CorpNewt algrey Shannee XLNC.        
