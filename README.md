@@ -105,15 +105,15 @@
    If on Intel cpu you can get a sample here:  
    https://github.com/corpnewt/Hackintosh-Guide   
         
-        ***Make sure to learn the basics of config.plist***  
-        https://github.com/corpnewt/Hackintosh-Guide/blob/master/config.plist-basics.md   
+   ***Make sure to learn the basics of config.plist***  
+   https://github.com/corpnewt/Hackintosh-Guide/blob/master/config.plist-basics.md   
         
   This shoud be enough to boot into the installer GOOD Luck!!  
         
-      [![Video](https://github.com/Broly1/Hackintosh-linux-Installer/blob/master/pict/novo.png)](https://youtu.be/DDJka-Ykzn8 "Video")
+  [![Video](https://github.com/Broly1/Hackintosh-linux-Installer/blob/master/pict/novo.png)](https://youtu.be/DDJka-Ykzn8 "Video")
 
 
         
         
-        ## All Credits to:
-        **CorpNewt algrey Shannee XLNC.**        
+   ## All Credits to:
+   **CorpNewt algrey Shannee XLNC.**        
