@@ -41,11 +41,11 @@
   <img src="pict/2019-09-11_11-54.png" width=700>   
   
    Give it `200MB` of space make sure you hit the `+` for it to work :) and hit Resise/Move  
-   It will move the whole hfs+ partition to the right and give us 200MB free space for our EFI partition.   
-   This will take a long times sit tight.  
+   It will move the whole hfs+ partition to the right and give us 200MB free space for our EFI partition.     
+     
    <img src="pict/2019-09-11_11-56.png" width=700>   
   
-   Do not forget to hit apply   
+   Do not forget to hit apply, This will take a long times sit tight.     
    <img src="pict/2019-09-11_11-58.png" width=700>   
    
    Right click on your new 200MB unallocated space.   
