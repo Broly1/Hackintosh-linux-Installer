@@ -54,7 +54,7 @@
    Hit New  
    <img src="pict/2019-09-11_12-09.png" width=700>  
      
-   In File System set it to `fat32` and in Lable `EFI`         
+   In File System set it to `fat32` and in Label `EFI`         
    <img src="pict/2019-09-11_12-12.png" width=700>  
      
    Hit apply again   
