@@ -94,7 +94,8 @@
    https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23    
    Place your kexts in /EFI/CLOVER/kexts/other   
    To know what kexts you need check this link:  
-        https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html   
+        https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html
+   You also need AppleMCEReporterDisabler.kext on Catalina too.
         
    ***This is how my kexts folder looks like***    
    <img src="pict/2019-09-11_12-31.png" width=700>   
