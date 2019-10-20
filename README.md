@@ -12,7 +12,7 @@
 ## This guide will support the following versions of macOS on Zen and 15H/16H AMD:  
 
 ### High Sierra 10.13.6 (17G65, 17G66, 17G8030)  
-  ### Mojave 10.14.6 (18G84, 18G87, 18G95)  
+### Mojave 10.14.6 (18G84, 18G87, 18G95)  
 ### Catalina 10.15 (19A583)
   
   ## Get macOS Installer with gibMacOS  
@@ -95,7 +95,8 @@
    Place your kexts in /EFI/CLOVER/kexts/other   
    To know what kexts you need check this link:  
         https://vanilla.amd-osx.com/setting-up-clover-for-amd-vanilla/kexts.html
-   You also need AppleMCEReporterDisabler.kext on Catalina too.
+
+   You will also need [AppleMCEReporterDisabler.kext](https://github.com/AMD-OSX/AMD_Vanilla/raw/master/Extra/AppleMCEReporterDisabler.kext.zip) on Catalina too.
         
    ***This is how my kexts folder looks like***    
    <img src="pict/2019-09-11_12-31.png" width=700>   
