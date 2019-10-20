@@ -13,6 +13,7 @@
 
 ### High Sierra 10.13.6 (17G65, 17G66, 17G8030)  
   ### Mojave 10.14.6 (18G84, 18G87, 18G95)  
+### Catalina 10.15 (19A583)
   
   ## Get macOS Installer with gibMacOS  
   Downloading the installer files fairly straight forward process but may take a while depending on your internet speeds.  
