@@ -67,7 +67,7 @@ download it here https://github.com/Broly1/ocflashdrive and paste it inside `/ma
 
 ![alt text](/images/broly0.png)
 
-   1. run `ocflashdrive.sh` Select your USB Drive and wait for it to create your installer.
+   1. run `./ocflashdrive.sh` Select your USB Drive and wait for it to create your installer.
 
 ![lsblk](/images/broly12.png)
 
