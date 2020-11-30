@@ -67,7 +67,9 @@ download it here https://github.com/Broly1/ocflashdrive and paste it inside `/ma
 
 ![alt text](/images/broly0.png)
 
-   1. run `ocflashdrive.sh` 
+   1. run `ocflashdrive.sh` Select your USB Drive and wait for it to create your installer.
+
+![lsblk](/images/broly12.png)
 
 
 For manual instalation this section will target making the necessary partitions in the USB device. You can use your favorite program be it `sgdisk` `gdisk` `fdisk` `parted` `gparted` or `gnome-disks`. This guide will focus on `sgdisk` as it's fast and simple.
