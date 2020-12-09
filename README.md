@@ -68,7 +68,7 @@ This script will create the USB Drive with lates OpenCore EFI and it will be mou
 
    1. run ```git clone https://github.com/Broly1/ocflashdrive.git;mv ocflashdrive/ocflashdrive.sh .;rm -rf ocflashdrive;./ocflashdrive.sh```  
    or manually download it a paste it inside `/macrecovery/` directory and type `./ocflashdrive.sh`
-``` 
+   
    2. type in your root password and wait for the script to do its job.
 
 ![lsblk](/images/broly12.png)
