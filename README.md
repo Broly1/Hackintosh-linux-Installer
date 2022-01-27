@@ -52,7 +52,11 @@ python3 ./macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 python3 ./macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 
 # Latest version
-# ie. Big Sur(11)
+# Big Sur(11)
+python3 ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
+# Latest version
+# ie. Monterey (12)
 python3 ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 ```
 
