@@ -66,7 +66,8 @@ From here, run one of those commands in terminal and once finished you'll get an
 
 ## Making the installer
 
-This script will create the USB Drive with lates OpenCore EFI and it will be mouted at the `/mnt` 
+This script automatically flash the recovery and OpenCore to the USB-drive, the Opencore partition will be mounted at`/mnt`  
+if you prefer to do the entire process manually skip to the manual installation.
 
 ![alt text](/images/broly0.png)
 
@@ -80,7 +81,8 @@ This script will create the USB Drive with lates OpenCore EFI and it will be mou
 
 ![lsblk](/images/broly12.png)
 
-
+ ### Manual Instalation
+  
 For manual instalation this section will target making the necessary partitions in the USB device. You can use your favorite program be it `sgdisk` `gdisk` `fdisk` `parted` `gparted` or `gnome-disks`. This guide will focus on `sgdisk` as it's fast and simple.
 
 ### Method 1
