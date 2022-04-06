@@ -72,7 +72,7 @@ if you prefer to do the entire process manually skip to the manual installation.
 
    1. run 
    ```
-   git clone https://github.com/Broly1/ocflashdrive.git;mv ocflashdrive/ocflashdrive.sh .;rm -rf ocflashdrive;./ocflashdrive.sh
+   curl -o ocflashdrive.sh https://raw.githubusercontent.com/Broly1/ocflashdrive/main/ocflashdrive.sh && chmod +x ocflashdrive.sh && ./ocflashdrive.sh
    ```  
    or manually download it a paste it inside `/macrecovery/` directory and type `./ocflashdrive.sh`
    
